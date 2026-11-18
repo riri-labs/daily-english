@@ -1,0 +1,18 @@
+{
+  "name": "daily-english",
+  "version": "1.0.0",
+  "private": true,
+  "description": "매일 영어회화 - 일상/응대 영어 말하기 연습 앱",
+  "scripts": {
+    "sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor-community/speech-recognition": "^7.0.1",
+    "@capacitor-community/text-to-speech": "^8.0.2",
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.2"
+  }
+}
